@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class spring2 {
+public class string2 {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
 
@@ -21,6 +21,8 @@ public class spring2 {
                 //System.out.println("대문자");
             }
         }
+        //Character.isLowerCase();
+        //Character.isUpperCase();
         System.out.println(result);
         //a 49 A 17
         //z 74 Z 42
