@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class string5  {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-
+           //nullnull#@!#!@null
         String str = sc.nextLine();
 
         String temp[] = new String[str.length()];
@@ -11,6 +11,7 @@ public class string5  {
         for(int i = 0; i<str.length();i++){
             temp[i] = String.valueOf(str.charAt(i));
         }
+        //Character.isLetter() -> 문자만 찾을 수 있음. 특수문자 제외
 
         String result[] = new String[str.length()];
 
@@ -28,9 +29,9 @@ public class string5  {
         int i = 0;
         int num = str.length()-1;
         while(true){
-            if(i == result.length)
+            if(i == result.length || num == -1)
                 break;
-
+            //System.out.println(num);
             int check = temp[num].charAt(0) - '0';
             if(result[i] != null){
                 i++;

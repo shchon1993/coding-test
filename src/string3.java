@@ -10,6 +10,8 @@ public class string3 {
 
 
 
+        //Integer.MIN_VALUE;
+        //Integer.MAX_VALUE;
         int com = 0;
         String result = arr[com];
 
