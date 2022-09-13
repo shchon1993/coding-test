@@ -40,7 +40,7 @@ public class string12 {
                         num += Math.pow(2,6-j);
                     }
                 }
-                result += String.valueOf((char)num);
+                result += String.valueOf((char)num); C
                 System.out.println((char)num);
                 num = 0;
                 temp = "";

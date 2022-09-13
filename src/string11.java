@@ -6,7 +6,6 @@ public class string11 {
         //문자별로 체크. 다음 문자가 이전 문자와 동일하면
         //cnt 증가. 다를까지 넣은 후 cnt가 1이 아니면 문자 옆에 붙임. 그리고 그다음 문자로 이동하여
         //반복
-
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         int cnt = 1;

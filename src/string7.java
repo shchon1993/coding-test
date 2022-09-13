@@ -6,6 +6,23 @@ public class string7 {
         //입력 받자마자 소문자 또는 대문자로 변경
         //해당 문자열 길이만큼 처음부터 돌려서 하나 만들고 거꾸로 돌려서 하나 만들어서 같은지 비교
 
+        //하늘 -> 시간생각해서 풀었음.
+        /* int left = 0;
+        int right = x.length()-1;
+        boolean success = true;
+        char [] array = x.toCharArray();
+        while(left < right){
+            if(array[left] != array[right]) {
+                success = false;
+                left = right;
+            }else{
+                left++;
+                right--;
+            }
+        }
+        }*/
+
+
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
 
